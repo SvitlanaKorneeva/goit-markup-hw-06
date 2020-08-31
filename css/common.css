@@ -170,14 +170,12 @@ html {
 .container-footer {
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
+  padding-top: 72px;
   padding-bottom: 60px;
 }
 
 .logo-footer {
   width: 270px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   margin-right: 30px;
 }
 .logo-item {
@@ -202,7 +200,6 @@ html {
   margin-bottom: 9px;
 }
 .social-container {
-  padding-top: 72px;
   margin-right: 30px;
   width: 270px;
 }
@@ -225,7 +222,6 @@ html {
 }
 
 .assign-container {
-  margin-top: 72px;
   width: 570px;
 }
 

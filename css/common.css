@@ -169,6 +169,9 @@ html {
 
 .container-footer {
   display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -223,6 +226,7 @@ html {
 
 .assign-container {
   margin-top: 72px;
+  width: 570px;
 }
 
 .footer-icons-link {

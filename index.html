@@ -63,6 +63,8 @@
           </button>
         </div>
       </section>
+
+      <!--Форма в модальном окне-->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button data-modal-close class="button-close">
@@ -73,20 +75,27 @@
           <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
           <form class="form">
            
-            <div class="form-field">
+            <div class="form-field" autocomplete="off">
               <label for="name">Имя</label>
-
-              <input type="text" name="user-name" id="name" autofocus />
-              <svg class="contacts-icon-mail" width="16" height="12">
-                <use href="./images/2/items/sprite.svg#icon-envelope"></use>
+              <svg class="input-icon" width="18" height="18">
+                <use href="./images/2/items/sprite.svg#icon-name-form"></use>
               </svg>
+
+              <input type="text" class="input-field" name="user-name" id="name" autofocus />
+              
             </div>
             <div class="form-field">
               <label for="tel">Телефон</label>
+              <svg class="input-icon" width="18" height="18">
+                <use href="./images/2/items/sprite.svg#icon-phone-form"></use>
+              </svg>
               <input type="text" name="tel" id="tel" />
             </div>
             <div class="form-field">
               <label for="mail">Почта</label>
+              <svg class="input-icon" width="18" height="18">
+                <use href="./images/2/items/sprite.svg#icon-mail-form"></use>
+              </svg>
               <input type="email" name="mail" id="mail" />
             </div>
             <div class="form-field">
@@ -574,7 +583,7 @@
           <!-- Футер лого и адреса-->
 
           <div class="logo-footer">
-            <a href="index.html" class="logo footer-item"
+            <a href="index.html" class="footer-logo"
               >Web <span class="logo-item">Studio</span>
             </a>
             <address>

@@ -170,14 +170,26 @@ html {
 .container-footer {
   display: flex;
   justify-content: space-between;
-  padding-top: 72px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .logo-footer {
-  width: 270px;
-  margin-right: 30px;
+  margin-right: 70px;
 }
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--accent-colour);
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
 .logo-item {
   color: var(--primary-white-color);
   margin-bottom: 20px;
@@ -290,6 +302,11 @@ html {
   letter-spacing: 0.06em;
   text-decoration: none;
   text-align: center;
+}
+
+.button-footer:hover,
+.button-footer:focus {
+  cursor: pointer;
 }
 
 .button-icon-submit {

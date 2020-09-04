@@ -124,6 +124,7 @@
   fill: var(--accent-colour);
   transform: scaleX(1);
 }
+
 textarea {
   resize: none;
 }
